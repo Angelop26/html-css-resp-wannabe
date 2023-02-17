@@ -139,6 +139,14 @@ img {
         width: 100%;
     }
     
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
     .row{
         display: block;
     }
@@ -159,5 +167,13 @@ img {
     
     .why-us .col-right {
         width: 100%;
+    }
+ }
+
+ /* Bonus */
+ 
+ @media screen and (max-width: 1160px) {
+    .container{
+        width: 100vw;
     }
  }
